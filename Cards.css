@@ -1,0 +1,21 @@
+.image-in-carrousel{
+    width: 100vh;
+    height: 150px;
+}
+.slider-container .cust-card{
+    margin-left: 0px;
+    overflow: hidden;
+    height: fit-content;
+    background-color: aliceblue;
+    outline: none;
+    
+}
+.first-col{
+    /* background-color: rgb(235, 231, 225);     */
+    padding: 20px 50px 25px 50px;
+    border-radius: 7px;
+    height: fit-content;
+
+}
+  
+ 

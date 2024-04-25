@@ -1,0 +1,15 @@
+.view{
+    width: fit-content;
+    overflow: hidden;
+  
+}
+.more-cards{
+    border-radius: 7px;
+    width: 0px;
+  
+}
+.side-container-1{
+ display:flex;
+ justify-content:space-evenly;
+
+}

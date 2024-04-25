@@ -1,0 +1,76 @@
+.nav-bg{
+    background-color: #262847;
+    padding: 20px 35px;
+
+}
+
+/* side bar */
+ 
+.side-container{
+    background-color: rgb(237, 235, 235);
+    width: 230px;
+    color: gray;
+    border-right: 2px solid gainsboro;   
+    height:100vh;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    position: absolute;
+    top: 0px;
+    z-index: 999;
+    position:fixed;
+    
+}
+.side-container::-webkit-scrollbar{
+    display: none;
+}
+.nav-options{
+    display: flex;
+    align-items: center;
+    padding: 9px 30px;
+    gap: 15px;
+    width: 230px;
+}
+.nav-options:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.card-container {
+    display: flex;
+    justify-content:flex-start;
+     margin-top: -30px;
+     margin-left: 42px;
+     overflow: hidden;
+    
+  }
+  
+  .card {
+    width: 200px;
+    height: 150px;
+    background-color:rgb(237, 235, 235);
+    border: 2px solid gainsboro;
+     text-align: start;
+    margin-left:26px;
+  }
+  .fa-folder-open{
+    font-size: 25px;
+  }
+  .fa-arrow-rotate-right{
+    background-color: #262847;
+    border-radius: 50%;
+    color: white;
+  }
+
+
+@media screen and (min-width:768px) {
+    .navitem{
+        width: 80px;
+    }
+    .navitem .nav-options h4{
+        display: none;
+    }
+    .navitem .nav-options{
+        padding: 20px;
+    }
+}
